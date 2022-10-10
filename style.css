@@ -1,0 +1,46 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+html { 
+    background: url(slub.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.oa {
+  font-family: 'Cinzel', serif;
+  font-size: 7vh;
+}
+
+.zapro {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4vh;
+  padding-top: 20px; ;
+}
+
+.zone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(244, 234, 234, 0.4);
+  padding: 5vh;
+  border: 0px solid white;
+}
+
+#demo {
+  color: rgb(62, 1, 49);
+}
